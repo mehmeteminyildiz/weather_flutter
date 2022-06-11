@@ -58,7 +58,6 @@ class _DetailState extends State<Detail> {
     icon = data.icon.replaceAll('n', 'd');
 
     setState(() {});
-
   }
 
   @override
@@ -104,7 +103,7 @@ class _DetailState extends State<Detail> {
                     top: 50.0,
                   ),
                   child: Text(
-                    "Günlük Hava Tahmini",
+                    "Günlük Hava Tahmin",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.white,
