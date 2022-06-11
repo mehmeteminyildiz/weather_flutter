@@ -58,6 +58,7 @@ class _DetailState extends State<Detail> {
     icon = data.icon.replaceAll('n', 'd');
 
     setState(() {});
+
   }
 
   @override
